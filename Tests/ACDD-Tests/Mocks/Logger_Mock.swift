@@ -1,4 +1,4 @@
-@testable import ACDD_Swift
+@testable import ACDD
 
 struct Logger_Mock: LoggerType {
     

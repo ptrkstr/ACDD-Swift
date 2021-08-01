@@ -1,5 +1,5 @@
 import XCTest
-@testable import ACDD_Swift
+@testable import ACDD
 
 final class AC_Tests: XCTestCase {
     
