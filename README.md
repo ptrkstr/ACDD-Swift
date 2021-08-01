@@ -3,6 +3,11 @@
 <p align="center">
     <img src="Assets/logo/logo.svg" width="180pt" alt="Clipboard with words GIVEN... WHEN... THEN...">
     <br>
+    <a href="https://github.com/patrickbdev/ACDD-Swift/actions/workflows/swift.yml"><img src="https://github.com/patrickbdev/ACDD-Swift/actions/workflows/swift.yml/badge.svg"/></a>
+    <a href="https://codecov.io/gh/patrickbdev/ACDD-Swift"><img src="https://codecov.io/gh/patrickbdev/ACDD-Swift/branch/main/graph/badge.svg?token=O6FVY8NPLC"/></a>
+    <br>
+    <a href="https://github.com/apple/swift-package-manager" alt="ACDD on Swift Package Manager" title="ACDD on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
+	<br>
     Acceptance criteria driven development provides simple types for structuring tests with <i>given</i>, <i>when</i>, <i>then</i> clauses to make following <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">behavior-driven development</a> in Swift easier.
 </p>
 
