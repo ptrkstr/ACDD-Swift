@@ -3,10 +3,12 @@
 <p align="center">
     <img src="Assets/logo/logo.svg" width="180pt" alt="Clipboard with words GIVEN... WHEN... THEN...">
     <br>
-    <a href="https://github.com/patrickbdev/ACDD-Swift/actions/workflows/swift.yml"><img src="https://github.com/patrickbdev/ACDD-Swift/actions/workflows/swift.yml/badge.svg"/></a>
-    <a href="https://codecov.io/gh/patrickbdev/ACDD-Swift"><img src="https://codecov.io/gh/patrickbdev/ACDD-Swift/branch/main/graph/badge.svg?token=O6FVY8NPLC"/></a>
+    <a href="https://swiftpackageindex.com/patrickbdev/ACDD-Swift"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fpatrickbdev%2FACDD-Swift%2Fbadge%3Ftype%3Dplatforms"/></a>
+    <a href="https://swiftpackageindex.com/patrickbdev/ACDD-Swift"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fpatrickbdev%2FACDD-Swift%2Fbadge%3Ftype%3Dswift-versions"/></a>
     <br>
     <a href="https://github.com/apple/swift-package-manager" alt="ACDD on Swift Package Manager" title="ACDD on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
+    <a href="https://github.com/patrickbdev/ACDD-Swift/actions/workflows/swift.yml"><img src="https://github.com/patrickbdev/ACDD-Swift/actions/workflows/swift.yml/badge.svg"/></a>
+    <a href="https://codecov.io/gh/patrickbdev/ACDD-Swift"><img src="https://codecov.io/gh/patrickbdev/ACDD-Swift/branch/main/graph/badge.svg?token=O6FVY8NPLC"/></a>
 	<br>
     Acceptance criteria driven development provides simple types for structuring scenario-oriented tests (<i>given</i>, <i>when</i>, <i>then</i>) to make following <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">behavior-driven development</a> in Swift easier.
 </p>
