@@ -16,4 +16,13 @@ jobs:
     - name: Build
       run: swift build -v
     - name: Run tests
-      run: swift test -v
+      run: swift test -v --enable-test-discovery --enable-code-coverage
+    # https://nacho4d-nacho4d.blogspot.com/2020/10/code-coverage-for-swift-package-projects.html
+    - name: Convert code coverage
+      run: xcrun llvm-cov export -format="lcov" -instr-profile=$(find .build -name default.profdata) $(find .build -name ACDDPackageTests) > info.lcov
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v2
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        file: info.lcov
+        fail_ci_if_error: true
