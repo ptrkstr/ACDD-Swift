@@ -8,7 +8,7 @@
     <br>
     <a href="https://github.com/apple/swift-package-manager" alt="ACDD on Swift Package Manager" title="ACDD on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
 	<br>
-    Acceptance criteria driven development provides simple types for structuring tests with <i>given</i>, <i>when</i>, <i>then</i> clauses to make following <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">behavior-driven development</a> in Swift easier.
+    Acceptance criteria driven development provides simple types for structuring scenario-oriented tests (<i>given</i>, <i>when</i>, <i>then</i>) to make following <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">behavior-driven development</a> in Swift easier.
 </p>
 
 
