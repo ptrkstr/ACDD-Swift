@@ -3,8 +3,8 @@ public struct SimpleLogger: LoggerType {
     public init() {}
     
     public func log(_ ac: AC) {
-        if let title = ac.title {
-            print("AC - \(title)")
+        if let scenario = ac.scenario {
+            print("AC - \(scenario)")
         } else {
             print("AC")
         }

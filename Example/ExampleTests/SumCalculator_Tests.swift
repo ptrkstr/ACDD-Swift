@@ -12,7 +12,7 @@ class SumCalculator_Tests: XCTestCase {
     
         var calculator = SumCalculator()
         
-        try AC(title: "Calculator should be able to sum")
+        try AC(scenario: "Calculator should be able to sum")
             .given("4 is entered into the calculator") {
                 calculator.firstNumber = 4
             }

@@ -3,16 +3,16 @@ import XCTest
 
 final class AC_Tests: XCTestCase {
     
-    func test_log_title() {
+    func test_log_scenario() {
         
-        let exp = expectation(description: "title is logged")
+        let exp = expectation(description: "scenario is logged")
         
         let logger = Logger_Mock(didLogAC: { ac in
-            XCTAssertEqual(ac.title, "title")
+            XCTAssertEqual(ac.scenario, "scenario")
             exp.fulfill()
         })
         
-        _ = AC(title: "title", logger: logger)
+        _ = AC(scenario: "scenario", logger: logger)
         
         waitForExpectations(timeout: 1)
     }

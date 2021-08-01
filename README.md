@@ -32,7 +32,7 @@ func test_success() throws {
     
     var calculator = SumCalculator()
     
-    try AC(title: "Calculator should be able to sum")
+    try AC(scenario: "Calculator should be able to sum")
         .given("4 is entered into the calculator") {
             calculator.firstNumber = 4
         }
@@ -79,7 +79,7 @@ This would be best placed in a location that runs before any tests.
 Set a logger per `AC` with:
 
 ```swift
-AC(title: "The world should not end", logger: HadronColliderLogger())
+AC(scenario: "The world should not end", logger: HadronColliderLogger())
 ```
 
 

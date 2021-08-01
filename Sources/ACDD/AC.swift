@@ -2,11 +2,11 @@ public struct AC {
     
     public typealias Handler = () throws -> ()
         
-    public let title: String?
+    public let scenario: String?
     public let logger: LoggerType?
     
-    public init(title: String? = nil, logger: LoggerType? = ACDD.defaultLogger) {
-        self.title = title
+    public init(scenario: String? = nil, logger: LoggerType? = ACDD.defaultLogger) {
+        self.scenario = scenario
         self.logger = logger
         logger?.log(self)
     }
