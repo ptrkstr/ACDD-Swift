@@ -112,4 +112,23 @@ final class AC_Tests: XCTestCase {
         
         XCTAssertTrue(events.isEmpty)
     }
+    
+    func test_when_then() {
+        
+        var events: [LoggerEvent]  = [
+            .init(clause: .when, description: "1"),
+            .init(clause: .then, description: "2")
+        ]
+
+        let logger = Logger_Mock(didLogEvent: { event in
+            XCTAssertEqual(event, events.first!)
+            events.removeFirst()
+        })
+        
+        AC(logger: logger)
+            .when("1")
+            .then("2")
+        
+        XCTAssertTrue(events.isEmpty)
+    }
 }
